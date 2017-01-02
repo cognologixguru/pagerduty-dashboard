@@ -1,3 +1,12 @@
+PROJECT NOT MAINTAINED
+=============================
+
+Pagerduty has added a v2 of their API and will be discontinuing support for v1 on July 6, 2017 ([v2 FAQ](https://v2.developer.pagerduty.com/docs/api-v2-frequently-asked-questions), [migration guide](https://v2.developer.pagerduty.com/docs/migrating-to-api-v2)). The dashboard may continue to work past that date.
+
+This project is using the `v1` endpoint. The changes required should be quite small (probably just updating `server/services/api.js`). I am unable to properly test any modifications against the new API since I no longer have access to a PagerDuty account.
+
+If you are interested in the project, I would be happy to accept pull requests or transfer ownership of the project.
+
 PagerDuty Dashboard
 =============================
 
